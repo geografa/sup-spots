@@ -15,7 +15,7 @@
         body {
             margin:0; 
             padding:0; 
-            font-family: sans-serif;
+            font-family: 'Times New Roman', Times, serif;
         }
         a, a:hover, a:visited {
             color: #0071bc;
@@ -253,13 +253,13 @@ var map = new mapboxgl.Map({
 
 var el = document.createElement('div');
 el.className = 'marker';
-el.style.backgroundImage = 'url(./images/pdx/people.png)';
-el.style.width = '35px';
+el.style.backgroundImage = 'url(./images/icons/pointer.png)';
+el.style.width = '55px';
 el.style.height = '48px';
  
-el.addEventListener('click', function() {
-    window.alert('hi');
-});
+// el.addEventListener('click', function() {
+//     window.alert('hi');
+// });
 
 var marker = new mapboxgl.Marker(el);
 if (config.showMarkers) {
@@ -283,6 +283,7 @@ map.on("load", function() {
         map.flyTo(chapter.location);
         if (config.showMarkers) {
             marker.setLngLat(chapter.location.center);
+            console.log(chapter.location.center);
         }
         if (chapter.onChapterEnter.length > 0) {
             chapter.onChapterEnter.forEach(setLayerOpacity);
