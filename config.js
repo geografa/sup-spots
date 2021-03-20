@@ -10,11 +10,35 @@ var config = {
     footer: 'Source: Rafa Gutierrez',
     chapters: [
         {
+            id: 'id-start',
+            title: 'Let\'s Go!',
+            image: './images/spots/ross-island-2.jpg',
+            staticMap: false,
+            description: 'New to SUP? Or maybe tired of the same old paddling spots? Here\'s a biased guide of places to SUP that are within an hour or so from Portland, Oregon USA. Just scroll down to see some great accessible spots in and around the City of Roses. <img src="./images/spots/suppmap.gif">If you want more map detail and directions, just...',
+            location: {
+                center: [-122.66440, 45.47991],
+                zoom: 9.68,
+                pitch: 0.00,
+                bearing: -0.16       },
+            onChapterEnter: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 1
+                // }
+            ],
+            onChapterExit: [
+                // {
+                //     layer: 'layer-name',
+                //     opacity: 0
+                // }
+            ]
+        },
+        {
             id: 'id-ri',
             title: 'Ross Island',
             image: './images/spots/ross-island.jpg',
             staticMap: true,
-            description: 'If you\'re in Portland proper, then Ross Island is a must-visit. Getting to Ross Island is pretty straightforward and very accessible from either Willamette Park or Sellwood riverfront Park. There\'s lots of beach along Sellwood that you can hug for a while and if you\'re adventurous you can make it to the southern tip of Ross Island. Experienced paddlers will loop around the island for the 6 to 7 km trip or just hang out in the lagoon. This area gets really busy in the summer and lots of boats and jet skis will pass by. Be sure to stay out of the middle of the river and closer to shore (but watch out for remnant pilings as they will catch your fin and you\'ll be taking a dip).',
+            description: 'If you\'re in Portland proper, then Ross Island is a must-visit. Getting to Ross Island is pretty straightforward and very accessible from either Willamette Park or Sellwood riverfront Park. There\'s lots of beach along Sellwood that you can hug for a while and if you\'re adventurous you can make it to the southern tip of Ross Island. <img src="./images/spots/ross-island-3.jpg">Experienced paddlers will loop around the island for the 6 to 7 km trip or just hang out in the lagoon. This area gets really busy in the summer and lots of boats and jet skis will pass by. Be sure to stay out of the middle of the river and closer to shore (but watch out for remnant pilings as they will catch your fin and you\'ll be taking a dip).',
             location: {
                 center: [ -122.66577,45.47073],
                 zoom: 13.18,
@@ -73,15 +97,31 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
-        },{
+        },
+        {
             id: 'id-narrows',
             title: 'Willamette Narrows',
             image: './images/spots/narrows.jpg',
             staticMap: true,
-            description: 'Ready to step it up?',
+            description: 'Like it says on the tin, Willamette Narrows is a tricky paddle, esp. at lower tides. Parking is at Willamette Park, the WP south of West Linn. From the beach closer to the mouth of the Tualatin River, head south and hug the shore till you get to the rocky stuff. Longer fins should watch for rocks. <img src="./images/spots/narrows-2.jpg"> Once you\'re in there, poke around the little inlets for a snack or yoga break.',
             location: {
                 center: [-122.64920, 45.33594],
                 zoom: 12.94,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'id-vancouver-lake',
+            title: 'Vancouver Lake, WA',
+            image: './images/spots/vancouver-lake.jpg',
+            staticMap: true,
+            description: 'Ready to step it up?',
+            location: {
+                center: [-122.74192, 45.68148],
+                zoom: 12.11,
                 pitch: 0.00,
                 bearing: 0.00
             },
