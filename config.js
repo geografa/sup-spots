@@ -4,7 +4,7 @@ var config = {
     showMarkers: true,
     theme: 'light',
     alignment: 'left',
-    title: 'Fave SUP spots in the PNW',
+    title: 'Top 10 SUP spots within 1 hour of Portland',
     subtitle: 'A biased opinion of great places to paddle',
     byline: 'by Rafa Gutierrez',
     footer: 'Source: Rafa Gutierrez',
@@ -35,7 +35,7 @@ var config = {
         },
         {
             id: 'id-ri',
-            title: 'Ross Island',
+            title: '1. Ross Island',
             image: './images/spots/ross-island.jpg',
             staticMap: true,
             description: 'If you\'re in Portland proper, then Ross Island is a must-visit. Getting to Ross Island is pretty straightforward and very accessible from either Willamette Park or Sellwood riverfront Park. There\'s lots of beach along Sellwood that you can hug for a while and if you\'re adventurous you can make it to the southern tip of Ross Island. <img src="./images/spots/ross-island-3.jpg">Experienced paddlers will loop around the island for the 6 to 7 km trip or just hang out in the lagoon. This area gets really busy in the summer and lots of boats and jet skis will pass by. Be sure to stay out of the middle of the river and closer to shore (but watch out for remnant pilings as they will catch your fin and you\'ll be taking a dip).',
@@ -60,10 +60,10 @@ var config = {
         },
         {
             id: 'id-merwin',
-            title: 'Merwin Lake (Yale Bridge)',
+            title: '2. Merwin Lake (Yale Bridge)',
             image: './images/spots/merwin.jpg',
             staticMap: true,
-            description: 'Merwin is fave spot of mine. Just one hour away from Portland, you\'ll find yourself in a lush PNW forest, replete with fuzzy ferns and forest fairies. The parking is sparse at Yale Bridge so get there early. The staircase down to the launch is long and steep, guaranteed to scuff your board. But once you\'re in, it\'s a smooth ride to the pictureesque cascades awaiting your IG stories. And there\'s a rope swing under the bridge for the swinger in you.',
+            description: 'Merwin is fave spot of mine. Just one hour away from Portland, you\'ll find yourself in a lush PNW forest, replete with fuzzy ferns and forest fairies. The parking is sparse at Yale Bridge so get there early. The staircase down to the launch is long and steep, guaranteed to scuff your board. But once you\'re in, it\'s a smooth ride to the picturesque cascades awaiting your IG stories. And there\'s a rope swing under the bridge for the swinger in you.',
             location: {
                 center: [-122.36976,45.95861],
                 zoom: 13,
@@ -85,7 +85,7 @@ var config = {
         },
         {
             id: 'id-estacada',
-            title: 'Estacada Lake',
+            title: '3. Estacada Lake',
             image: './images/spots/estacada-lake.jpg',
             staticMap: true,
             description: 'Also within the 1 hour radius of Portland is Estacada Lake (aka Timber Park, Milo McIver SP). Estacada is approachable from either Milo or Timber Park. Just depends on if you want to pay the park fee. Timber Park has rentals from <a href="https://clackamasriveroutfitters.com/paddle-board-kayak-rentals/">Clackamas River Outfitters</a>. Estacada is also quite beautiful like Merwin with steep cliffs and a few cascades along the way. ',
@@ -100,7 +100,7 @@ var config = {
         },
         {
             id: 'id-narrows',
-            title: 'Willamette Narrows',
+            title: '4. Willamette Narrows',
             image: './images/spots/narrows.jpg',
             staticMap: true,
             description: 'Like it says on the tin, Willamette Narrows is a tricky paddle, esp. at lower tides. Parking is at Willamette Park, the WP south of West Linn. From the beach closer to the mouth of the Tualatin River, head south and hug the shore till you get to the rocky stuff. Longer fins should watch for rocks. <img src="./images/spots/narrows-2.jpg"> Once you\'re in there, poke around the little inlets for a snack or yoga break.',
@@ -115,10 +115,10 @@ var config = {
         },
         {
             id: 'id-vancouver-lake',
-            title: 'Vancouver Lake, WA',
+            title: '5. Vancouver Lake, WA',
             image: './images/spots/vancouver-lake.jpg',
             staticMap: true,
-            description: 'Ready to step it up?',
+            description: 'Vancouver Lake is probably one of the best paddles for beginners. When it\'s not too windy, you can move around the shallow beach with ease. With such a large fetch, the wind can turn and it will be a tough paddle back if you get unlucky with the weather. Just be sure to check conditions before you go (as withe all places, really).',
             location: {
                 center: [-122.74192, 45.68148],
                 zoom: 12.11,
@@ -127,6 +127,81 @@ var config = {
             },
             onChapterEnter: [],
             onChapterExit: []
+        }, 
+        {
+            id: 'id-hagg-lake',
+            title: '6. Hagg Lake',
+            image: './images/spots/hagg-lake.jpg',
+            staticMap: true,
+            description: 'Hagg Lake. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec nunc at neque lacinia pharetra. Integer tempus sagittis metus, eu volutpat justo cursus nec.',
+            location: {
+                center: [-123.22922, 45.48977],
+                zoom: 12.93,
+                pitch: 52.50,
+                bearing: -119.20
+            },
+            onChapterEnter: [],
+            onChapterExit: []
         },
+        {
+            id: 'id-hood-river',
+            title: '7. Hood River',
+            image: './images/spots/hood-river.jpg',
+            staticMap: true,
+            description: 'Wells Island, Hood River, Oregon.description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec nunc at neque lacinia pharetra. Integer tempus sagittis metus, eu volutpat justo cursus nec.',
+            location: {
+                center: [-121.52354, 45.71452],
+                zoom: 12.5,
+                pitch: 0.00,
+                bearing: -2.27
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'id-smith-bybee',
+            title: '8. Smith & Bybee',
+            image: './images/spots/smith-bybee.jpg',
+            staticMap: true,
+            description: '',
+            location: {
+                center: [-122.71857, 45.61553],
+                zoom: 14,
+                pitch: 59.50,
+                bearing: 68.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'id-lacamas',
+            title: '9. Lacamas Lake',
+            image: './images/spots/.jpg',
+            staticMap: true,
+            description: '',
+            location: {
+                center: [-122.41044, 45.60443],
+                zoom: 12.49,
+                pitch: 0.00,
+                bearing: 0.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'id-scappoose',
+            title: '10. Scappoose Bay',
+            image: './images/spots/scappoose.jpg',
+            staticMap: true,
+            description: '',
+            location: {
+                center: [-122.81991, 45.81296],
+                zoom: 12.70,
+                pitch: 60.00,
+                bearing: 160.00
+            },
+            onChapterEnter: [],
+            onChapterExit: []
+        }
     ]
 };
