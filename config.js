@@ -7,14 +7,14 @@ var config = {
     title: 'Best Portland SUP Spots',
     subtitle: 'A short guide to great paddle places within one hour of Portland, Oregon',
     byline: 'by Rafa Gutierrez',
-    footer: 'Source: Rafa Gutierrez, newb paddler, Porland OR. Opinions my own. Always wear a PFD, leash, and something fabulous.',
+    footer: 'Source: Rafa Gutierrez, newb paddler, Portland OR. Opinions my own. Always wear a PFD, leash, and something fabulous. Copyright © 2021.',
     chapters: [
         {
             id: 'id-start',
             title: 'Let\'s Go!',
             image: './images/spots/ross-island-2.jpg',
             staticMap: false,
-            description: 'New to SUP? Or maybe tired of the same old paddling spots? Here\'s a biased guide of places to SUP that are within an hour or so from Portland, Oregon USA. Just scroll down to see some fine paddling places in and around the City of Roses. <img src="./images/spots/suppmap.gif">If you want more map detail and directions, just click the map 👉 ',
+            description: 'New to SUP? Or maybe tired of the same old paddling spots? Here\'s a biased guide of places to SUP that are within an hour or so from Portland, Oregon USA. These are mainly my opinions and experience so your mileage may vary. Always paddle at your own risk, always wear a PFD & leash, and check conditions before you head out. <p>Just keep scrolling down to see some fine paddling places in and around the City of Roses. <img src="./images/spots/suppmap.gif"></p>If you want more map detail and directions, just click the map 👉 ',
             location: {
                 center: [-122.66440, 45.47991],
                 zoom: 9.68,
@@ -61,9 +61,9 @@ var config = {
         {
             id: 'id-merwin',
             title: '2. Merwin Lake (Yale Bridge)',
-            image: './images/spots/merwin.jpg',
+            image: './images/spots/merwin-2.jpg',
             staticMap: true,
-            description: 'Merwin is fave spot of mine. Just one hour away from Portland, you\'ll find yourself in a lush PNW forest, replete with fuzzy ferns and forest fairies. The parking is sparse at Yale Bridge so get there early. The staircase down to the launch is long and steep, guaranteed to scuff your board. But once you\'re in, it\'s a smooth ride to the picturesque cascades awaiting your IG stories. And there\'s a rope swing under the bridge for the swinger in you.',
+            description: 'Merwin is fave spot of mine. Just one hour away from Portland, you\'ll find yourself in a lush PNW forest, replete with fuzzy ferns and forest fairies. The parking is sparse at Yale Bridge so get there early. The staircase down to the launch is long and steep, guaranteed to scuff your board. <img src="./images/spots/merwin.jpg">But once you\'re in, it\'s a smooth ride to the picturesque cascades awaiting your IG stories. And there\'s a rope swing under the bridge for the swinger in you.',
             location: {
                 center: [-122.37150, 45.96015],
                 zoom: 14.08,
@@ -105,11 +105,11 @@ var config = {
             staticMap: true,
             description: 'Like it says on the tin, Willamette Narrows is a tricky paddle, esp. at lower tides. Parking is at Willamette Park, the WP south of West Linn. From the beach closer to the mouth of the Tualatin River, head south and hug the shore till you get to the rocky stuff. Longer fins should watch for rocks. <img src="./images/spots/narrows-2.jpg"> Once you\'re in there, poke around the little inlets for a snack or yoga break.',
             location: {
-                center: [-122.64920, 45.33594],
-                zoom: 12.94,
+                center: [-122.65148, 45.33848],
+                zoom: 13.67,
                 pitch: 0.00,
                 bearing: 0.00
-            },
+        },
             onChapterEnter: [],
             onChapterExit: []
         },
@@ -144,17 +144,17 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'id-hood-river',
-            title: '7. Hood River',
-            image: './images/spots/hood-river.jpg',
+            id: 'id-willamette-falls',
+            title: '7. Willamette Falls',
+            image: './images/spots/willamette-falls-2.jpg',
             staticMap: true,
-            description: 'Hood River is next level. Known around the world as one of the windsurfing and kiteboarding capitals of the world, it\'s also one of the best places for downwinding SUP. Not that I\'ve tried it but that\'s a goal for sure. For something a little more mellow and when winds are light, you can park at the Hook on the east side and then make your way around Wells Island. The shallows can catch your fin and there are still lots of pilings just below the water level to watch for.',
+            description: 'Just south of Portland in the heart of Oregon City lie the dramatic views of Willamette Falls. While it\'s lined by derelict buildings ready for the next zombie film, the area is slated for a mix-use development by the <a href="https://pamplinmedia.com/pt/9-news/502927-403018-grand-ronde-plans-mixed-use-development-at-willamette-falls">Confederated Tribes of Grand Ronde</a>. As exciting as that news is, it\'s still a treat to get that close to the falls and hear its roar. <img src="./images/spots/willamette-falls-1.jpg">Careful of the swirlies and faster-than-you-think-current. Put in at Jon Storm Park under the I-205 bridge just off McLoughlin and head south to the mills.',
             location: {
-                center: [-121.52354, 45.71452],
-                zoom: 12.5,
-                pitch: 0.00,
-                bearing: -2.27
-            },
+                center: [-122.61548, 45.35443],
+                zoom: 14.59,
+                pitch: 43.00,
+                bearing: 0.00
+        },
             onChapterEnter: [],
             onChapterExit: []
         },
@@ -163,7 +163,7 @@ var config = {
             title: '8. Smith & Bybee',
             image: './images/spots/s&b.jpg',
             staticMap: true,
-            description: 'Winter time paddling at Smith & Bybee Lakes is a must for birders and nutria spotters. The grasses and underwater shrubbery are way to thick in the spring and summer when Metro drains it to swamp status but the winter levels are great for quick tour. The shrubs and trees above the water will make a maze-like setting so be sure you make a plan and know how to get back before you head out. S&B is tucked in the industrial part of North Portland just off Marine Drive. Park at the kayak and canoe launch and watch for bikers on the trail. <video width="100%" controls><source src="./images/spots/s&b.mp4" type="video/mp4">Your browser does not support the video tag.</video>',
+            description: 'Winter time paddling at Smith & Bybee Lakes is a must for birders and nutria spotters. The grasses and underwater shrubbery are way too thick in the spring and summer when Metro drains it to swamp status but the winter levels are great for quick tour. The shrubs and trees above the water will make a maze-like setting so be sure you make a plan and know how to get back before you head out. S&B is tucked in the industrial part of North Portland just off Marine Drive. Park at the kayak and canoe launch and watch for bikers on the trail. <video width="100%" controls><source src="./images/spots/s&b.mp4" type="video/mp4">Your browser does not support the video tag.</video>',
             location: {
                 center: [-122.71857, 45.61553],
                 zoom: 14,
@@ -195,10 +195,10 @@ var config = {
             staticMap: true,
             description: 'Scappoose was a treat this summer. The Bay has ample parking and Next Adventure is right there if you\'ve forgotten something like, oh...your board. Like Smith & Bybee, be sure to track where you\'re going because it can get a little maze-y out there.',
             location: {
-                center: [-122.81991, 45.81296],
-                zoom: 12.70,
+                center: [-122.83608, 45.82762],
+                zoom: 13.90,
                 pitch: 60.00,
-                bearing: 160.00
+                bearing: 175.20
             },
             onChapterEnter: [],
             onChapterExit: []
