@@ -103,7 +103,7 @@ var config = {
             title: '4. Willamette Narrows',
             image: './images/spots/narrows.jpg',
             staticMap: true,
-            description: 'Like it says on the tin, Willamette Narrows is a tricky paddle, esp. at lower tides. Parking is at Willamette Park, the WP south of West Linn. From the beach closer to the mouth of the Tualatin River, head south and hug the shore till you get to the rocky stuff. Longer fins should watch for rocks. <img src="./images/spots/narrows-2.jpg"> Once you\'re in there, poke around the little inlets for a snack or yoga break.',
+            description: 'Like it says on the tin, Willamette Narrows is a tricky paddle with mean and pointy rocks. Parking is at Willamette Park, the WP south of West Linn. From the beach closer to the mouth of the Tualatin River, head south and hug the shore till you get to the rocky stuff. Longer fins should watch for rocks. <img src="./images/spots/narrows-2.jpg"> Once you\'re in there, poke around the little inlets for a snack or yoga break.',
             location: {
                 center: [-122.65148, 45.33848],
                 zoom: 13.67,
