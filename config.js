@@ -163,7 +163,7 @@ var config = {
             title: '8. Smith & Bybee',
             image: './images/spots/s&b.jpg',
             staticMap: true,
-            description: 'Winter time paddling at Smith & Bybee Lakes is a must for birders and nutria spotters. The grasses and underwater shrubbery are way too thick in the spring and summer when Metro drains it to swamp status but the winter levels are great for quick tour. The shrubs and trees above the water will make a maze-like setting so be sure you make a plan and know how to get back before you head out. S&B is tucked in the industrial part of North Portland just off Marine Drive. Park at the kayak and canoe launch and watch for bikers on the trail. <video width="100%" controls><source src="./images/spots/s&b.mp4" type="video/mp4">Your browser does not support the video tag.</video>',
+            description: 'Winter time paddling at Smith & Bybee Lakes is a must for birders and nutria spotters. The grasses and underwater shrubbery are way too thick in the spring and summer when Metro drains it to swamp status but the winter levels are great for quick tour. The shrubs and trees above the water will make a maze-like setting so be sure you make a plan and know how to get back before you head out. S&B is tucked in the industrial part of North Portland just off Marine Drive. Park at the kayak and canoe launch and watch for bikers on the trail. <video width="100%" controls><source src="./images/spots/s&b2.mp4" type="video/mp4">Your browser does not support the video tag.</video>',
             location: {
                 center: [-122.71857, 45.61553],
                 zoom: 14,
